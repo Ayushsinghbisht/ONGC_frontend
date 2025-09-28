@@ -10,9 +10,9 @@ export default function Signup() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: Add signup/authentication logic here
+    // authentication logic here
     console.log({ name, email, password, confirmPassword });
-    // For demo, redirect to login after signup
+    // redirect to login after signup
     navigate("/");
   };
 
@@ -27,7 +27,7 @@ export default function Signup() {
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Name Input */}
+         
           <input
             type="text"
             value={name}
@@ -37,7 +37,6 @@ export default function Signup() {
             required
           />
 
-          {/* Email Input */}
           <input
             type="email"
             value={email}
@@ -47,7 +46,7 @@ export default function Signup() {
             required
           />
 
-          {/* Password Input */}
+         
           <input
             type="password"
             value={password}
@@ -57,7 +56,6 @@ export default function Signup() {
             required
           />
 
-          {/* Confirm Password Input */}
           <input
             type="password"
             value={confirmPassword}
