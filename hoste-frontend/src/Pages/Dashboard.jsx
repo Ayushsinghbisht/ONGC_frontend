@@ -19,21 +19,21 @@ export default function Dashboard() {
     }`}
   >
     <h2 className="text-2xl font-bold mb-8 text-gray-800">Hostel Dashboard</h2>
-    <nav className="flex flex-col gap-4 text-gray-700">
-      {/* Static grey shade + hover blue */}
-      <button className="btn btn-ghost w-full justify-start bg-gray-50 hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
-        Home
-      </button>
-      <button className="btn btn-ghost w-full justify-start bg-gray-50 hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
-        Rooms
-      </button>
-      <button className="btn btn-ghost w-full justify-start bg-gray-50 hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
-        Bookings
-      </button>
-      <button className="btn btn-ghost w-full justify-start bg-gray-50 hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
-        Users
-      </button>
-    </nav>
+ <nav className="flex flex-col text-gray-700">
+  <button className="btn btn-ghost w-full justify-start bg-gray-50 mb-2 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
+    Home
+  </button>
+  <button className="btn btn-ghost w-full justify-start bg-gray-50 mb-2 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
+    Rooms
+  </button>
+  <button className="btn btn-ghost w-full justify-start bg-gray-50 mb-2 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
+    Bookings
+  </button>
+  <button className="btn btn-ghost w-full justify-start bg-gray-50 mb-2 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-600 hover:shadow-md transition duration-200">
+    Users
+  </button>
+</nav>
+
   </div>
 
   {/* Main Content */}
